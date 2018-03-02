@@ -1,0 +1,24 @@
+{
+  "name": "khanhlq-frontent-2.7",
+  "version": "1.0.0",
+  "description": "Live demo:\r # https://colombo-trainee.github.io/KHANHLQ-Frontent-1.6/",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpmquockhanh/KHANHLQ-Frontent-2.7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpmquockhanh/KHANHLQ-Frontent-2.7/issues"
+  },
+  "homepage": "https://github.com/kpmquockhanh/KHANHLQ-Frontent-2.7#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

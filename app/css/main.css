@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.clear {
+  clear: both; }
+
+a {
+  text-decoration: none; }
+
+@font-face {
+  font-family: "VarelaRound";
+  src: url("../fonts/VarelaRound-Regular.ttf");
+  src: url("../fonts/VarelaRound-Regular.ttf") format("woff"), url("../fonts/VarelaRound-Regular.ttf") format("opentype"); }
+
+body {
+  width: 600px;
+  height: 900px;
+  background: linear-gradient(45deg, red, blue);
+  margin: auto;
+  font-family: VarelaRound; }
+
+.container {
+  width: 536px;
+  height: 820px;
+  background: white;
+  position: absolute;
+  margin-top: 200px;
+  position: relative;
+  box-shadow: 10px 10px 50px #111; }
+
+.top {
+  width: 100%;
+  height: 90px;
+  background: white; }
+
+.top .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #2a2a2a;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px; }
+
+.left, .right {
+  width: 50%;
+  height: 100%;
+  background: "";
+  float: left; }
+
+.id {
+  float: left;
+  margin-top: 20px; }
+
+.name, .addr {
+  font-weight: bold;
+  color: #2a2a2a;
+  font-size: 17px;
+  line-height: 25px;
+  margin-left: 10px; }
+
+.addr {
+  color: #d9d8d8;
+  font-size: 12px;
+  font-weight: none; }
+
+.follow {
+  float: right;
+  font-size: 15px;
+  margin-top: 30px;
+  width: 120px;
+  margin-right: 20px;
+  border: 2px solid #42b2fc;
+  border-radius: 4px;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  color: #42b2fc; }
+
+.more {
+  float: right;
+  margin-top: 30.5px;
+  margin-right: 20px; }
+
+.mid {
+  height: 535px;
+  width: 100%;
+  height: 535px;
+  background: #d9d8d8;
+  display: flex;
+  align-items: center; }
+
+.mid img {
+  margin: auto; }
+
+.icon {
+  margin: 20px; }
+
+.icon a {
+  margin-right: 20px; }
+
+.icon img:last-child {
+  margin-right: 0px; }
+
+.icon .social {
+  float: right; }
+
+.likes {
+  margin-left: 20px;
+  margin-bottom: 20px; }
+
+.likes img {
+  display: inline; }
+
+.likes .like {
+  display: inline;
+  font-weight: bold; }
+
+.tags .name, .tags .addr {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: inline; }
+
+.tag {
+  display: inline;
+  margin-left: 20px;
+  color: #507fbe;
+  margin-top: 20px; }
