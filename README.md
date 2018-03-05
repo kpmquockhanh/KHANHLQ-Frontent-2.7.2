@@ -13,7 +13,7 @@ Thực hiện bởi [Lưu Quốc Khánh](https://github.com/kpmquockhanh)
           http://todomvc.com/examples/jquery/#/all
 
 - Bài làm: 
-    - https://kpmquockhanh.github.io/KHANHLQ-Frontent-2.7.2/app
+    - https://kpmquockhanh.github.io/KHANHLQ-Frontent-2.7.2/app/
 
 ## Hướng dẫn cài đặt test/sử dụng nếu có
 
